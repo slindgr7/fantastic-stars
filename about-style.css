@@ -11,13 +11,16 @@ body {
 	width: fit-content;
 }
 
+
 h1 {
-	color: rgb(46, 46, 46);
+	font-size: 3rem;
+	font-weight: 100;
+	color: rgba(41, 41, 41, 0.82);
 	word-spacing: 1rem;
-	letter-spacing: 10px;
+	letter-spacing: 5px;
 }
-.story p {
-	font-size: 14px;
+.story {
+	font-size: 12px;
 }
 
 
@@ -29,10 +32,12 @@ h1 {
 }
 
 .story img {
-	width: 700px;
-	border-radius: 1rem;
-	box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.5);
+	margin-top: 3rem;
+	width: 1000px;
+	border-radius: 0.6rem;
+	box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.272);
 }
+
 
 .facts {
 	display: flex;
@@ -71,4 +76,65 @@ h1 {
 
 
 
+
+.logo img {
+	min-width: 60px;
+	max-width: 70px;
+	border-radius: 1rem;
+	position: relative;
+	right: -50%;
+	top: 35px;
+}
+
+
+
+
+
+
+
+h2 {
+	margin-top: 5rem;
+	margin-bottom: 2rem;
+	color: rgb(46, 46, 46);
+	word-spacing: 1rem;
+	letter-spacing: 15px;
+	min-width: max-content;
+}
+
+.meet {
+	background-color: rgba(153, 193, 248, 0.087);
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex: 1 1 0px;
+	justify-content: space-around;
+	padding: 5rem;
+
+}
+
+.colleague {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	flex: 1 1 0px;
+	border-bottom: 1px solid rgba(153, 153, 153, 0.388);
+	padding: 2rem;
+
+	p {
+		min-width: 12rem;
+		padding: 0.3rem;
+		font-size: 1.5rem;
+		text-align: center;
+	}
+}
+
+
+
+.colleague img {
+	max-width: 200px;
+	min-width: 100px;
+	border-radius: 10%;
+	box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.5);
+	padding: 0.1rem;
+}
 
