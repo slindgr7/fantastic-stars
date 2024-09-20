@@ -32,10 +32,11 @@ h1 {
 }
 
 .story img {
-	margin-top: 3rem;
-	width: 1000px;
+	margin-top: 1rem;
+	width: 100%;
 	border-radius: 0.6rem;
 	box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.272);
+	margin-bottom: 1rem;
 }
 
 
@@ -107,12 +108,12 @@ h2 {
 	flex-direction: column;
 	flex-wrap: wrap;
 	flex: 1 1 0px;
-	justify-content: space-around;
 	padding: 5rem;
 
 }
 
 .colleague {
+	width: 100%;
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
@@ -121,13 +122,26 @@ h2 {
 	padding: 2rem;
 
 	p {
-		min-width: 12rem;
+		min-width: max-content;
 		padding: 0.3rem;
 		font-size: 1.5rem;
 		text-align: center;
+		color: rgba(35, 35, 35, 0.853);
 	}
-}
 
+	p:first-of-type {
+		font-size: 2rem;
+		font-weight: 600;
+		letter-spacing: 2px;
+		color: black;
+		margin-top: 1.5rem;
+	}
+	p:first-of-type:hover {
+		color: rgb(112, 181, 251);
+		cursor: pointer;
+	}
+
+}
 
 
 .colleague img {
