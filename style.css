@@ -70,5 +70,60 @@ display: none;
 .header-1 .search button {
 	padding: 5px;
 	border: none;
+	
 }
 }
+footer{
+	color: white;
+	margin-top: 50px;
+	border: 2px solid rgb(74, 64, 64);
+	background-color: black;
+}
+footer .footer-1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 70px 0 0;
+}
+.footer-1 img{
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 120px;
+	border: 2px solid gray;
+}
+footer .information{
+	display: flex;
+	flex-direction: column;
+}
+footer .information>*{
+	padding: 15px;
+	color: white;
+}
+footer .information a:hover{
+	font-weight: bold;
+	color: black;
+	background-color: white;
+}
+footer .social-media{
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+}
+footer .social-media img{
+	width: 30px;
+}
+footer .copy-right{
+	border-top: 2px solid gray;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.footer-1 .contact{
+	padding: 15px;
+}
+@media (max-width: 580px){
+	footer .footer-1{
+		display: flex;
+		flex-direction: column;}
+}
+	
