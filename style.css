@@ -1,0 +1,129 @@
+header {
+  width: 100wh;
+  background-image: url(pic/smart-watch-with-black-band-neon-light-background_843415-1338.png);
+  background-size: cover;
+}
+.header-1 {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid gray;
+}
+
+.header-1 img {
+  width: 140px;
+}
+.header-1 .search {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+}
+.header-1 .search input {
+  height: 30px;
+  width: 300px;
+}
+.header-1 .search button {
+  background-color: rgb(231, 220, 220);
+  border-color: gray;
+  font-weight: bold;
+  padding: 9px;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px;
+}
+nav > * {
+  border: 2px solid gray;
+  border-top: none;
+  background-color: rgb(225, 215, 215);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav > *:hover {
+  background-color: rgb(189, 183, 183);
+  color: white;
+  font-weight: bold;
+}
+@media (max-width: 580px) {
+	body{
+		min-width: 260px;
+	}
+.header-1{
+	height: 130px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+  .header-1 .search{
+	position: static;
+    display: flex;
+    flex-direction: column;
+>  }
+.header-1 img{
+display: none;
+}
+.header-1 .search input {
+	height: 20px;
+	width: 200px;
+}
+.header-1 .search button {
+	padding: 5px;
+	border: none;
+	
+}
+}
+footer{
+	color: white;
+	margin-top: 50px;
+	border: 2px solid rgb(74, 64, 64);
+	background-color: black;
+}
+footer .footer-1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 70px 0 0;
+}
+.footer-1 img{
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 120px;
+	border: 2px solid gray;
+}
+footer .information{
+	display: flex;
+	flex-direction: column;
+}
+footer .information>*{
+	padding: 15px;
+	color: white;
+}
+footer .information a:hover{
+	font-weight: bold;
+	color: black;
+	background-color: white;
+}
+footer .social-media{
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+}
+footer .social-media img{
+	width: 30px;
+}
+footer .copy-right{
+	border-top: 2px solid gray;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.footer-1 .contact{
+	padding: 15px;
+}git
+@media (max-width: 580px){
+	footer .footer-1{
+		display: flex;
+		flex-direction: column;}
+}
+	
