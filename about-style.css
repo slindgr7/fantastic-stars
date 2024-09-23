@@ -82,6 +82,24 @@ h1 {
 }
 
 
+.box {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    position: sticky;
+    left: 100%;
+    top: 40%;
+    margin-right: 1rem;
+    
+}
+
+.box img {
+    display: flex;
+    padding-top: 0.5rem;
+    width: 1.5rem; 
+}
+
 
 
 .logo img {
