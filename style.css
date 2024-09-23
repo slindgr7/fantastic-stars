@@ -39,37 +39,40 @@ body {
     text-shadow: 1px 1px 2px #beb8b8;
 }
 
+
 h3 {
     color: #000000cd;
     margin-top: 10px;   
     text-shadow: 1px 1px 2px #bdb5b5;
-
 }
+
 
 strong {
     font-size: 18px;
     color: #00000085;
     line-height: 1.5;
     text-shadow: 1px 1px 2px #4e40409b;
-
 }
+
 
 p {
     font-size: 18px;
     color: #3333338c;
     line-height: 1.5;
     text-shadow: 1px 1px 2px #f4f1f1;
-
 }
+
 
 @media (max-width: 600px) {
     .main-section {
         padding: 10px;
         margin: 20px;
     }
+	
     .stylish-text {
         font-size: 24px;
     }
+	
     h3 {
         font-size: 18px;
     }
