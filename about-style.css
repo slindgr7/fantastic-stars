@@ -3,12 +3,9 @@
 	margin: 0 auto;
 	padding: 0;
 } */
-body{
-	margin: 0 auto;
-}
+
 main {
 	width: 100vw;
-	height: 100vh;
 	font-size: clamp(1rem, 0.9285714285714286rem + 0.35714285714285715vw, 1.25rem);
 	* {
 		box-sizing: border-box;
@@ -24,7 +21,9 @@ h1 {
 	color: rgba(41, 41, 41, 0.82);
 	word-spacing: 1rem;
 	letter-spacing: 5px;
+	min-width: max-content;
 }
+
 .story {
 	font-size: 12px;
 }
@@ -111,10 +110,6 @@ h1 {
 .logo img {
 	min-width: 60px;
 	max-width: 70px;
-	border-radius: 1rem;
-	position: relative;
-	right: -50%;
-	top: 35px;
 }
 
 h2 {
@@ -122,6 +117,7 @@ h2 {
 	margin-bottom: 2rem;
 	color: rgb(46, 46, 46);
 	word-spacing: 1rem;
+	letter-spacing: 15px;
 	min-width: max-content;
 }
 
@@ -131,6 +127,7 @@ h2 {
 	flex-direction: column;
 	flex-wrap: wrap;
 	flex: 1 1 0px;
+	padding: 5rem;
 
 }
 
