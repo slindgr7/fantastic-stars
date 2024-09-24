@@ -58,8 +58,8 @@ nav > *:hover {
 	position: static;
     display: flex;
     flex-direction: column;
->  }
-.header-1 img{
+ }
+.header-1>img{
 display: none;
 }
 .header-1 .search input {
@@ -123,6 +123,5 @@ footer .copy-right{
 @media (max-width: 580px){
 	footer .footer-1{
 		display: flex;
-		flex-direction: column;}
 		flex-direction: column;}
 }	
