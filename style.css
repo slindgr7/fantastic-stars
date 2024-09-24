@@ -1,5 +1,4 @@
 header {
-  width: 100wh;
   background-image: url(pic/smart-watch-with-black-band-neon-light-background_843415-1338.png);
   background-size: cover;
 }
@@ -59,8 +58,8 @@ nav > *:hover {
 	position: static;
     display: flex;
     flex-direction: column;
->  }
-.header-1 img{
+ }
+.header-1>img{
 display: none;
 }
 .header-1 .search input {
@@ -120,10 +119,9 @@ footer .copy-right{
 }
 .footer-1 .contact{
 	padding: 15px;
-}git
+}
 @media (max-width: 580px){
 	footer .footer-1{
 		display: flex;
 		flex-direction: column;}
-}
-	
+}	
