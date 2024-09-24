@@ -107,17 +107,12 @@ h1 {
 
 
 
-.logo img {
-	min-width: 60px;
-	max-width: 70px;
-}
-
 h2 {
 	margin-top: 5rem;
 	margin-bottom: 2rem;
 	color: rgb(46, 46, 46);
 	word-spacing: 1rem;
-	letter-spacing: 15px;
+	/* letter-spacing: 15px; */
 	min-width: max-content;
 }
 
