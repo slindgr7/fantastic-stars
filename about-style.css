@@ -1,11 +1,10 @@
 
 body{
-	margin: 0 auto;
+	margin: 0;
 	background-color: #312d2d;
 	color: #a89797;  alt: white-text
 }
 main {
-	width: 100vw;
 	font-size: clamp(1rem, 0.9285714285714286rem + 0.35714285714285715vw, 1.25rem);
 	* {
 		box-sizing: border-box;

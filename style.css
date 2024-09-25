@@ -1,4 +1,5 @@
 body{
+	width: 100vw;
 	font-size: clamp(1rem, 0.9285714285714286rem + 0.35714285714285715vw, 1.25rem);
 }
 header {
