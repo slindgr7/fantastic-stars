@@ -118,7 +118,6 @@ h2 {
 }
 
 .meet {
-	width: 100%;
 	background-color: rgba(153, 193, 248, 0.087);
 	display: flex;
 	flex-direction: column;
