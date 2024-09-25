@@ -1,5 +1,6 @@
 body{
 	font-size: clamp(1rem, 0.9285714285714286rem + 0.35714285714285715vw, 1.25rem);
+	margin: 0 auto;
 }
 header {
   background-image: url(pic/smart-watch-with-black-band-neon-light-background_843415-1338.png);
