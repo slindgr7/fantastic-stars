@@ -1,5 +1,8 @@
+body{
+	font-size: clamp(1rem, 0.9285714285714286rem + 0.35714285714285715vw, 1.25rem);
+	margin: 0 auto;
+}
 header {
-  width: 100wh;
   background-image: url(pic/smart-watch-with-black-band-neon-light-background_843415-1338.png);
   background-size: cover;
 }
@@ -59,8 +62,8 @@ nav > *:hover {
 	position: static;
     display: flex;
     flex-direction: column;
->  }
-.header-1 img{
+ }
+.header-1>img{
 display: none;
 }
 .header-1 .search input {
@@ -82,6 +85,7 @@ footer{
 footer .footer-1{
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	margin: 0 70px 0 0;
 }
@@ -118,12 +122,25 @@ footer .copy-right{
 	justify-content: center;
     align-items: center;
 }
+
 .footer-1 .contact{
 	padding: 15px;
-}git
+	color: white;
+}
+.contact .contact-3>*{
+	padding: 15px;
+
+}
+.contact .contact-2{
+	margin-bottom: 30px;
+	margin-bottom: 20px;
+}
+.copy-right .p-1{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 @media (max-width: 580px){
 	footer .footer-1{
 		display: flex;
 		flex-direction: column;}
-}
-	
+}	
