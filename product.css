@@ -91,7 +91,7 @@ header {
 }
 .title::after{
     content: '';
-    background: #ff523b;
+    background: #b98dba;
     width: 80px;
     height: 5px;
     border-radius: 5px;
@@ -101,8 +101,9 @@ header {
     transform: translate(-50%);
 }
 .title:hover{
-    color: turquoise;
+    color: rgb(162, 143, 143);
 }
+
 h4{
     color:#e1d6d6;
     font-weight: normal;
@@ -111,11 +112,31 @@ p{
     font-size: 14px;
 }
 .rating .fa{
-    color:#ff523b;
+    color:#b98dba;
 }
 .col-4:hover{/*mecheresha lay*/
     transform: translateY(-5px);
 }
+
+/*Köp-knapp*/
+.small-container .buy-button 
+{
+    display: inline-block;
+    padding:7px 15px;
+    margin: 4px;
+    background-color: #3e3232;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 2px 2px 7px rgba(8, 8, 8, 0.5);
+}
+
+.small-container .buy-button:hover
+{
+  background-color: #393434b6;
+}
+
 /*-------footer----*/
 footer{
 	color: white;
