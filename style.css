@@ -140,6 +140,7 @@ footer .copy-right{
 }
 .contact .contact-3>*{
 	padding: 15px;
+	font-size: 20px;
 
 }
 .contact .contact-2{
@@ -166,4 +167,8 @@ footer .padding{
 }
 footer .contact-1 .line{
 	text-decoration: underline;
+}
+footer .contact-1 .white{
+	color: white;
+	font-weight: bold;
 }
