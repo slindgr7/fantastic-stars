@@ -1,48 +1,66 @@
 
 body{
 	margin: 0;
-	background-color: #312d2d;
-	color: #a89797; 
+	background: linear-gradient(92deg, #494446, #141414);
+	color: #a89797;  alt: white-text
 }
+
+
 main {
+	font-family: "Roboto", sans-serif;
 	font-size: clamp(1rem, 0.9285714285714286rem + 0.35714285714285715vw, 1.25rem);
 	* {
 		box-sizing: border-box;
 		margin: 0;
+		scroll-behavior: smooth;
 		
 	}
 }
 
 
 h1 {
-	font-size: 3rem;
-	font-weight: 100;
+	font-size: 2rem;
+	font-weight: 400;
 	word-spacing: 1rem;
-	min-width: max-content;
+	letter-spacing: 15px;
 	text-align: center;
+	margin-top: 3rem;
 }
 
 
 .story {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	gap: 1rem;
-	padding: 2rem;
+	padding: 1rem;
 
 	p {
 		font-size: 14px;
+		margin-bottom: 1rem;
 		text-align: center;
-
 	}
+
+	
+}
+
+.background-img {
+	padding: 2rem;
+	display: flex;
+	justify-content: center;
+	border-radius: 2%;
+	box-shadow: 12px 13px 20px 8px #0000004a;
+	margin-bottom: 3rem;
 }
 
 .story img {
 	margin-top: 1rem;
-	width: 80%;
+	width: 100%;
+	max-width: 800px;
 	border-radius: 0.6rem;
 	box-shadow: 10px 8px 6px 0px rgba(0, 0, 0, 0.416);
 	margin-bottom: 1rem;
-	align-self: center;
+	
 }
 
 .story img:hover {
@@ -57,7 +75,6 @@ h1 {
 	display: flex;
 	flex: 1 1 0px;
 	flex-wrap: wrap;
-	gap: 1rem;
 }
 
 .facts div {
@@ -66,7 +83,6 @@ h1 {
 	align-items: center;
 	flex-wrap: wrap;
 	flex: 1 1 0px;
-	gap: 0.5rem;
 }
 
 
@@ -78,17 +94,16 @@ h1 {
 }
 
 
-.facts p:nth-child(2) {
+.facts p {
 	text-align: center;
-	padding: 1rem;
+	padding: 0.5rem;
 	letter-spacing: 1px;
-	row-gap: 5rem;
 }
 
 
 .box {
-    border: 1px solid black;
-	background-color: rgb(86 29 38);
+    border: 1px solid rgba(0, 0, 0, 0.303);
+	background-color: rgba(86, 29, 38, 0.566);
     border-radius: 50%;
     width: 2.5rem;
     height: 2.5rem;
@@ -106,11 +121,13 @@ h1 {
 
 
 
+/* Meet our team  */
 
 
 .meet {
-
-	background-color: rgba(153, 193, 248, 0.087);
+	position: relative;
+    -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgb(0 0 0 / 70%));
+	background: linear-gradient(292deg,rgba(86, 29, 38, 0.691), #181818c7);
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -119,7 +136,7 @@ h1 {
 }
 
 h2 {
-	margin-top: 3rem;
+	margin-top: 2rem;
 	margin-bottom: 2rem;
 	text-align: center;
 	letter-spacing: 10px;
@@ -134,15 +151,16 @@ h2 {
 	border-bottom: 1px solid rgba(153, 153, 153, 0.388);
 	padding: 2.5rem;
 
+
 	p {
 		padding: 0.3rem;
-		font-size: 1.5rem;
+		font-size: 1rem;
 		text-align: center;
 	}
 
 	p:first-of-type {
-		font-size: 2rem;
-		font-weight: 600;
+		font-size: 1.8rem;
+		font-weight: 700;
 		letter-spacing: 2px;
 		color: black;
 		margin-top: 1.5rem;
@@ -155,7 +173,6 @@ h2 {
 
 }
 
-
 .colleague img {
 	max-width: 200px;
 	min-width: 100px;
@@ -163,17 +180,85 @@ h2 {
 	box-shadow: 8px 11px 14px 0px rgb(0 0 0);
 	padding: 0.1rem;
 }
-footer .footer-1 .social-media>*{
-	color: white;
+
+
+
+/* Contact us  */
+
+.contact-us {
+	display: flex;
+	justify-content: center;
 }
-@media (max-width: 580px){
-	main .meet>*{
-		width: 100%;
-	}
-	.meet .colleague{
-		display: flex;
-		flex-direction: column;
-		
+
+
+.contact-container {
+	margin-top: 3rem;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+    background-color: #7469695f;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 9px 10px 9px 6px rgba(0, 0, 0, 0.25);
+    max-width: 400px;
+    width: 90%;
+
+	h2 {
+		font-size: 1rem;
+		text-align: center;
+		margin-bottom: 2rem;
 	}
 	
+	h3 {
+		font-size: 0.7rem;
+		margin-bottom: 0.2rem;
+		margin-top: 1rem;
+		margin-left: px;
+
+	}
+
 }
+
+
+.contact-box {
+
+		div {
+			width: 90%;
+			height: 2rem;
+			background-color: white;
+			font-size: 0.7rem;
+			border-radius: 0.7rem;
+		}
+
+		div:nth-child(6) {
+			height: 5rem;
+		}
+
+		
+		p {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 2rem;
+		}
+
+		button {
+			margin-top: 1.2rem;
+			width: 90%;
+			height: 2rem;
+			background-color: #311f1f6e;
+			border-radius: 0.7rem;
+			border: none;
+		}
+
+		button:hover {
+			cursor:pointer;
+			transform:scale(1.1) ;
+		}
+
+	}
+
+
+
+
