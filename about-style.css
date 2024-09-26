@@ -147,6 +147,7 @@ h2 {
 .colleague {
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	border-bottom: 1px solid rgba(153, 153, 153, 0.388);
 	padding: 2.5rem;
