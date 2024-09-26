@@ -123,13 +123,19 @@ padding: 7px;
     color: rgb(121, 106, 106);
 }
 
-h4{
+/*Rubriker*/
+h4 h2 {
     color:#e1d6d6;
     font-weight: normal;
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
 }
+
+/*Pris*/
 p{
-    font-size: 14px;
+    font-size: 15px;
 }
+
 .rating .fa{
     color:#ee7373;
 }
@@ -157,6 +163,7 @@ p{
 }
 
 /*-------footer----*/
+
 footer{
 	color: white;
 	margin-top: 50px;
