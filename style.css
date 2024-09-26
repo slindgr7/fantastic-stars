@@ -13,7 +13,9 @@ header {
 }
 
 .header-1 img {
+	margin: 20px;
   width: 140px;
+  border-radius: 100%;
 }
 .header-1 .search {
   position: absolute;
@@ -26,9 +28,10 @@ header {
 }
 .header-1 .search button {
   background-color: rgb(231, 220, 220);
-  border-color: gray;
   font-weight: bold;
   padding: 9px;
+  color: rgb(0, 0, 0);
+  border: none;
 }
 nav {
   display: grid;
@@ -42,9 +45,12 @@ nav > * {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
 }
 nav > *:hover {
-  background-color: rgb(189, 183, 183);
+  background-color: rgb(122, 120, 120);
   color: white;
   font-weight: bold;
 }
@@ -94,6 +100,7 @@ footer .footer-1{
 	margin-top: 20px;
 	width: 120px;
 	border: 2px solid gray;
+	border-radius: 100%;
 }
 footer .information{
 	display: flex;
@@ -102,11 +109,13 @@ footer .information{
 footer .information>*{
 	padding: 15px;
 	color: white;
+	text-decoration: none;
+	font-weight: bold;
 }
 footer .information a:hover{
 	font-weight: bold;
 	color: black;
-	background-color: white;
+	background-color: rgb(249, 237, 237);
 }
 footer .social-media{
 	padding: 15px;
