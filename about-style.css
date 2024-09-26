@@ -33,22 +33,34 @@ h1 {
 	flex-direction: column;
 	justify-content: center;
 	gap: 1rem;
-	padding: 2rem;
+	padding: 1rem;
 
 	p {
 		font-size: 14px;
 		margin-bottom: 1rem;
 		text-align: center;
 	}
+
+	
+}
+
+.background-img {
+	padding: 2rem;
+	display: flex;
+	justify-content: center;
+	border-radius: 2%;
+	box-shadow: 12px 13px 20px 8px #0000004a;
+	margin-bottom: 3rem;
 }
 
 .story img {
 	margin-top: 1rem;
-	width: 80%;
+	width: 100%;
+	max-width: 800px;
 	border-radius: 0.6rem;
 	box-shadow: 10px 8px 6px 0px rgba(0, 0, 0, 0.416);
 	margin-bottom: 1rem;
-	align-self: center;
+	
 }
 
 .story img:hover {
@@ -113,6 +125,8 @@ h1 {
 
 
 .meet {
+	position: relative;
+    -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgb(0 0 0 / 70%));
 	background: linear-gradient(292deg,rgba(86, 29, 38, 0.691), #181818c7);
 	display: flex;
 	flex-direction: column;
@@ -149,8 +163,8 @@ h2 {
 	}
 
 	p:first-of-type {
-		font-size: 1.2rem;
-		font-weight: 600;
+		font-size: 1.8rem;
+		font-weight: 700;
 		letter-spacing: 2px;
 		color: black;
 		margin-top: 1.5rem;
