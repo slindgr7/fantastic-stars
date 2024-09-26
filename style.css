@@ -105,6 +105,7 @@ footer .footer-1{
 footer .information{
 	display: flex;
 	flex-direction: column;
+	margin-top: 10px;
 }
 footer .information>*{
 	padding: 15px;
@@ -115,7 +116,8 @@ footer .information>*{
 footer .information a:hover{
 	font-weight: bold;
 	color: black;
-	background-color: rgb(249, 237, 237);
+	background-color: rgb(246, 198, 198);
+	border-radius: 10%;
 }
 footer .social-media{
 	padding: 15px;
@@ -153,3 +155,15 @@ footer .copy-right{
 		display: flex;
 		flex-direction: column;}
 }	
+footer .hover:hover{
+	border-radius: 10%;
+background-color: white;
+font-weight: bold;
+color: black;
+}
+footer .padding{
+	padding: 15px;
+}
+footer .contact-1 .line{
+	text-decoration: underline;
+}
