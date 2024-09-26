@@ -14,16 +14,15 @@ main {
 	* {
 		box-sizing: border-box;
 		margin: 0;
-		scroll-behavior: smooth;
 		
 	}
 }
 
 
 h1 {
-	font-size: 1.2rem;
-	font-weight: 400;
-	letter-spacing: 5px;
+	font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 8px;
 	text-align: center;
 	margin-top: 3rem;
 }
@@ -49,8 +48,8 @@ h1 {
 	padding: 2rem;
 	display: flex;
 	justify-content: center;
-	border-radius: 2%;
-	box-shadow: 12px 13px 20px 8px #0000004a;
+	border-radius: 0.5rem;
+	box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.192), inset 0 0 5px rgba(255, 255, 255, 0.274), 0 5px 5px rgba(0, 0, 0, 0.164);
 	margin-bottom: 3rem;
 }
 
@@ -61,6 +60,7 @@ h1 {
 	border-radius: 0.6rem;
 	box-shadow: 10px 8px 6px 0px rgba(0, 0, 0, 0.416);
 	margin-bottom: 1rem;
+	
 	
 }
 
@@ -227,10 +227,12 @@ h2 {
 
 		div {
 			width: 90%;
-			height: 2rem;
 			background-color: white;
 			font-size: 0.7rem;
 			border-radius: 0.7rem;
+			border-radius: 0.5rem;
+			box-shadow: inset 0px 0px 7px 1px rgb(55 24 24), inset 0 0 5px rgba(255, 255, 255, 0.274), 0 5px 5px rgba(0, 0, 0, 0.164);
+			padding: 0.2rem;
 		}
 
 		div:nth-child(6) {
@@ -248,10 +250,11 @@ h2 {
 		button {
 			margin-top: 1.2rem;
 			width: 90%;
-			height: 2rem;
-			background-color: #311f1f6e;
+			padding: 0.7rem;
+			background-color: #400d0d6e;
 			border-radius: 0.7rem;
 			border: none;
+			font-weight: 600;
 		}
 
 		button:hover {
