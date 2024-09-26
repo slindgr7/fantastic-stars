@@ -5,8 +5,8 @@
 }
 body{
     font-family: 'poppins, sans-serif';
-    background-image: linear-gradient(#312d2d, #9a8c8c);
-    color: #e1d6d6;
+    background: linear-gradient(92deg, #494446, #141414);
+    color: #a89797;  alt: white-text
 }
 header {
     background-image: url(pic/smart-watch-with-black-band-neon-light-background_843415-1338.png);
@@ -59,8 +59,8 @@ header {
 /*-----product----*/
 
 .box {
-  border: 1px solid black;
-  background-color: rgb(86 29 38);
+  border: 1px solid rgba(0, 0, 0, 0.303);
+	background-color: rgba(86, 29, 38, 0.566);
   border-radius: 50%;
   width: 2.5rem;
   height: 2.5rem;
