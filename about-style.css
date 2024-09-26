@@ -220,6 +220,11 @@ h2 {
 			font-size: 0.7rem;
 			border-radius: 0.7rem;
 		}
+
+		div:nth-child(6) {
+			height: 5rem;
+		}
+
 		
 		p {
 			display: flex;
