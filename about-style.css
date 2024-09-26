@@ -3,12 +3,14 @@ body{
 	margin: 0;
 	background: linear-gradient(92deg, #494446, #141414);
 	color: #a89797;  alt: white-text
+	
 }
 
 
 main {
 	font-family: "Roboto", sans-serif;
 	font-size: clamp(1rem, 0.9285714285714286rem + 0.35714285714285715vw, 1.25rem);
+	
 	* {
 		box-sizing: border-box;
 		margin: 0;
@@ -19,10 +21,9 @@ main {
 
 
 h1 {
-	font-size: 2rem;
+	font-size: 1.2rem;
 	font-weight: 400;
-	word-spacing: 1rem;
-	letter-spacing: 15px;
+	letter-spacing: 5px;
 	text-align: center;
 	margin-top: 3rem;
 }
@@ -36,7 +37,7 @@ h1 {
 	padding: 1rem;
 
 	p {
-		font-size: 14px;
+		font-size: 10px;
 		margin-bottom: 1rem;
 		text-align: center;
 	}
@@ -136,7 +137,7 @@ h1 {
 }
 
 h2 {
-	margin-top: 2rem;
+	margin-top: 2.5rem;
 	margin-bottom: 2rem;
 	text-align: center;
 	letter-spacing: 10px;
@@ -161,7 +162,7 @@ h2 {
 
 	p:first-of-type {
 		font-size: 1.8rem;
-		font-weight: 700;
+		font-weight: 500;
 		letter-spacing: 2px;
 		color: black;
 		margin-top: 1.5rem;
