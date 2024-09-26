@@ -2,7 +2,7 @@
 body{
 	margin: 0;
 	background-color: #312d2d;
-	color: #a89797;  alt: white-text
+	color: #a89797; 
 }
 main {
 	font-size: clamp(1rem, 0.9285714285714286rem + 0.35714285714285715vw, 1.25rem);
@@ -122,6 +122,7 @@ h2 {
 	margin-top: 3rem;
 	margin-bottom: 2rem;
 	text-align: center;
+	letter-spacing: 10px;
 }
 
 
@@ -129,9 +130,7 @@ h2 {
 .colleague {
 	display: flex;
 	align-items: center;
-	flex-wrap: wrap;
 	justify-content: space-around;
-	flex: 1 1 auto;
 	border-bottom: 1px solid rgba(153, 153, 153, 0.388);
 	padding: 2.5rem;
 
@@ -171,4 +170,10 @@ footer .footer-1 .social-media>*{
 	main .meet>*{
 		width: 100%;
 	}
+	.meet .colleague{
+		display: flex;
+		flex-direction: column;
+		
+	}
+	
 }
