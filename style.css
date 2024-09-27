@@ -1,3 +1,7 @@
+body{
+	font-size: clamp(1rem, 0.9285714285714286rem + 0.35714285714285715vw, 1.25rem);
+	margin: 0 auto;
+}
 header {
   background-image: url(pic/smart-watch-with-black-band-neon-light-background_843415-1338.png);
   background-size: cover;
@@ -9,7 +13,9 @@ header {
 }
 
 .header-1 img {
+	margin: 20px;
   width: 140px;
+  border-radius: 100%;
 }
 .header-1 .search {
   position: absolute;
@@ -22,9 +28,10 @@ header {
 }
 .header-1 .search button {
   background-color: rgb(231, 220, 220);
-  border-color: gray;
   font-weight: bold;
   padding: 9px;
+  color: rgb(0, 0, 0);
+  border: none;
 }
 nav {
   display: grid;
@@ -38,9 +45,12 @@ nav > * {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
 }
 nav > *:hover {
-  background-color: rgb(189, 183, 183);
+  background-color: rgb(122, 120, 120);
   color: white;
   font-weight: bold;
 }
@@ -81,6 +91,7 @@ footer{
 footer .footer-1{
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	margin: 0 70px 0 0;
 }
@@ -89,19 +100,24 @@ footer .footer-1{
 	margin-top: 20px;
 	width: 120px;
 	border: 2px solid gray;
+	border-radius: 100%;
 }
 footer .information{
 	display: flex;
 	flex-direction: column;
+	margin-top: 10px;
 }
 footer .information>*{
 	padding: 15px;
 	color: white;
+	text-decoration: none;
+	font-weight: bold;
 }
 footer .information a:hover{
 	font-weight: bold;
 	color: black;
-	background-color: white;
+	background-color: rgb(246, 198, 198);
+	border-radius: 10%;
 }
 footer .social-media{
 	padding: 15px;
@@ -117,11 +133,42 @@ footer .copy-right{
 	justify-content: center;
     align-items: center;
 }
+
 .footer-1 .contact{
 	padding: 15px;
+	color: white;
+}
+.contact .contact-3>*{
+	padding: 15px;
+	font-size: 20px;
+
+}
+.contact .contact-2{
+	margin-bottom: 30px;
+	margin-bottom: 20px;
+}
+.copy-right .p-1{
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 @media (max-width: 580px){
 	footer .footer-1{
 		display: flex;
 		flex-direction: column;}
 }	
+footer .hover:hover{
+	border-radius: 10%;
+background-color: white;
+font-weight: bold;
+color: black;
+}
+footer .padding{
+	padding: 15px;
+}
+footer .contact-1 .line{
+	text-decoration: underline;
+}
+footer .contact-1 .white{
+	color: white;
+	font-weight: bold;
+}

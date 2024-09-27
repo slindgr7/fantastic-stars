@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: linear-gradient(92deg, #494446, #141414);
+}
+
+.container {
+    max-width: 800px;
+    margin: 53px;
+    background-color: #312d2d;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 12px 13px 20px 8px #1818184a;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+    color: #d1c6c6;
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 17px;
+    margin: 6px;
+    color: #706868;
+}
+
+input, select {
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #fffdfd;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    
+}
+
+.form-group.half {
+    width: 48%;
+}
+
+.form-row {
+    display: flex;
+    justify-content:flex-start;
+}
+
+
+.purchase-button {
+    padding: 15px;
+    background-color: #423b36;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 12px 13px 20px 8px #1818184a;
+}
+
+.purchase-button:hover {
+    background-color: #241d1d;
+}
