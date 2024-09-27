@@ -75,9 +75,9 @@ input, select
 {
     display: flex;
     flex-direction: column;
-    position: relative;
-    left: 1000px;
-    top: 0px;
+    position: fixed;
+    left: 800px;
+    top: 50px;
     width: fit-content;
     height: fit-content;
     gap: 10px;
@@ -91,6 +91,108 @@ input, select
 
 img
 {
-    max-width: 350px;
+    display: block;
+    max-width: 200px;
     box-shadow: 12px 13px 20px 8px #1818184a;
+}
+
+/*-------footer----*/
+
+footer{
+	color: white;
+	margin-top: 50px;
+	border: 2px solid rgb(74, 64, 64);
+	background-color: black;
+}
+footer .footer-1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 70px 0 0;
+}
+.footer-1 img{
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 120px;
+	border: 2px solid gray;
+}
+footer .information{
+	display: flex;
+	flex-direction: column;
+}
+footer .information>*{
+	padding: 15px;
+	color: white;
+}
+footer .information a:hover{
+	font-weight: bold;
+	color: black;
+	background-color: white;
+}
+footer .social-media{
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+}
+footer .social-media img{
+	width: 30px;
+}
+footer .copy-right{
+	border-top: 2px solid gray;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.footer-1 .contact{
+	padding: 15px;
+	color: white;
+}
+.contact .contact-3>*{
+	padding: 15px;
+
+}
+.contact .contact-2{
+	margin-bottom: 30px;
+	margin-bottom: 20px;
+}
+.copy-right .p-1{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+/*------for media query--------*/
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: lightblue;
+    
+    }
+.header-1{
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .header-1 .search{
+    position: static;
+    display: flex;
+    flex-direction: column;
+ }
+.header-1>img{
+display: none;
+}
+.header-1 .search .input {
+    height: 20px;
+    width: 200px;
+}
+.header-1 .search .button {
+    padding: 5px;
+    border: none;    
+}
+footer .footer-1{
+    display: flex;
+    flex-direction: column;}
 }
