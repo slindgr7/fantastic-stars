@@ -14,9 +14,9 @@ body {
     padding: 80px;
     background-color: #312d2d;
     color: #ffffff;
-    min-height: 500px; /* Justera för att passa innehållet */
-    box-sizing: border-box; /* Säkerställ att paddingen inte påverkar bredden */
-    width: 100%; /* Se till att main-section har full bredd */
+    min-height: 500px; 
+    box-sizing: border-box; 
+    width: 100%;
 }
 
 * {
@@ -39,7 +39,7 @@ body {
 .text {
     flex: 1;
     margin-right: 20px;
-    text-align: left; /* Texten till vänster */
+    text-align: left;
 }
 
 .text h1 {
@@ -65,8 +65,8 @@ body {
     position: absolute;
     bottom: 0;
     right: 0;
-    margin-right: 570px; /* Justerar avstånd från kanten */
-    margin-bottom: 1px; /* Justerar avstånd från botten */
+    margin-right: 570px; 
+    margin-bottom: 1px; 
     margin-left: 10px;
     font-size: 18px;
     line-height: 1.6;
@@ -76,12 +76,12 @@ body {
 
 .stylish-image {
     flex-shrink: 0;
-    width: 40%; /* Håller bilden till 40% av bredden i desktopläge */
+    width: 40%; 
 }
 
 .stylish-image img {
-    width: 100%; /* Fyller upp containerns bredd */
-    max-width: 500px; /* Maximal bredd för bilden */
+    width: 100%; 
+    max-width: 500px; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(46, 128, 234, 0.573);
 }
@@ -112,7 +112,7 @@ body {
     }
 
     .stylish-image {
-        width: 80%; /* Mindre bredd för mobil */
+        width: 80%; 
         margin-top: 20px;
     }
 
