@@ -32,6 +32,8 @@ body {
 .moved-text {
   margin-top: 80px;
   margin-left: 70px;
+  color: white;
+  font-size: 20px;
 }
 
 .stylish-image img {
