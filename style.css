@@ -250,9 +250,13 @@ footer .copy-right {
   padding: 15px;
   color: white;
 }
+.contact-1>*{
+	color: white;
+}
 .contact .contact-3 > * {
   padding: 15px;
   font-size: 20px;
+  color: white;
 }
 .contact .contact-2 {
   margin-bottom: 30px;
