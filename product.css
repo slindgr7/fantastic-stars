@@ -87,7 +87,7 @@ padding: 7px;
     justify-content: space-around;
 }
 .small-container{
-  background: linear-gradient(grey,skyblue);
+  background: linear-gradient(92deg, #494446, #141414);
   max-width: 1080px;
   margin: auto;
   padding-left: 25px;
