@@ -155,17 +155,17 @@ h2 {
 
 
 	p {
+		color: #a89797; 
 		padding: 0.3rem;
 		font-size: 1rem;
 		text-align: center;
-		color: #a89797;
 	}
 
 	p:first-of-type {
+		color: #a89797; 
 		font-size: 1.8rem;
 		font-weight: 500;
 		letter-spacing: 2px;
-		color: black;
 		margin-top: 1.5rem;
 	}
 	p:first-of-type:hover {
