@@ -72,11 +72,10 @@ nav > *:hover {
   padding-left: 250px;
   padding-right: 250px;
 }
-.row {
+.small-con .small-container .row {
   display: flex;
   flex-direction: row;
   padding: 20px;
-  gap: 40px;
 }
 .row > * {
   text-align: center;
