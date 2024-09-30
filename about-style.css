@@ -2,14 +2,8 @@
 body{
 	margin: 0;
 	background: linear-gradient(92deg, #494446, #141414);
-<<<<<<< HEAD
-	color: #a89797;
-	
-=======
 	color: #a89797; 
->>>>>>> f65686f568ca3450c5c6608ee2ff44135c96e151
 }
-
 
 main {
 	font-family: "Roboto", sans-serif;
@@ -43,6 +37,7 @@ h1 {
 		font-size: 12px;
 		margin-bottom: 1rem;
 		text-align: center;
+		color: #a89797;
 	}
 
 	
@@ -163,6 +158,7 @@ h2 {
 		padding: 0.3rem;
 		font-size: 1rem;
 		text-align: center;
+		color: #a89797;
 	}
 
 	p:first-of-type {
@@ -210,6 +206,7 @@ h2 {
     box-shadow: 9px 10px 9px 6px rgba(0, 0, 0, 0.25);
     max-width: 400px;
     width: 90%;
+	margin-bottom: 3rem;
 
 	h2 {
 		font-size: 1rem;
