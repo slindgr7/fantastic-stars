@@ -38,64 +38,69 @@
 
 <body>
 <div class="container">
-    <h1>One Step Checkout</h1>
     <form action="#" method="POST">
+        <h1>One Step Checkout</h1>
         <!-- Namn -->
         <div class="form-group">
             <label for="fullName">Name:</label>
-            <input type="text" id="fullName" name="fullName" placeholder="" required>
+            <input type="text" id="fullName" name="fullName" placeholder="">
         </div>
 
         <!-- E-post -->
         <div class="form-group">
             <label for="email">Email: </label>
-            <input type="email" id="email" name="email" placeholder="" required>
+            <input type="email" id="email" name="email" placeholder="">
         </div>
 
         <!-- Adress -->
         <div class="form-group">
             <label for="address">Address: </label>
-            <input type="text" id="address" name="address" placeholder="" required>
+            <input type="text" id="address" name="address" placeholder="">
         </div>
 
-        <div class="form-row">
             <!-- Stad -->
             <div class="form-group">
                 <label for="city">City: </label>
-                <input type="text" id="city" name="city" placeholder="" required>
-            </div>
+                <input type="text" id="city" name="city" placeholder="">
 
             <!-- Postnummer -->
             <div class="form-group">
                 <label for="zip">Postal Code: </label>
-                <input type="text" id="zip" name="zip" placeholder="" required>
+                <input type="text" id="zip" name="zip" placeholder="">
             </div>
         </div>
 
         <!-- Betalkortsinfo -->
         <div class="form-group">
             <label for="cardNumber">Card number: </label>
-            <input type="text" id="cardNumber" name="cardNumber" placeholder="" required>
+            <input type="text" id="cardNumber" name="cardNumber" placeholder="">
         </div>
 
-        <div class="form-row">
             <!-- Utgångsdatum -->
-            <div class="form-group half">
+            <div class="form-group">
                 <label for="expDate">Expiration date</label>
-                <input type="text" id="expDate" name="expDate" placeholder="" required>
+                <input type="text" id="expDate" name="expDate" placeholder="">
             </div>
 
             <!-- CVC -->
-            <div class="form-group half">
+            <div class="form-group">
                 <label for="cvc">CVC</label>
-                <input type="text" id="cvc" name="cvc" placeholder="" required>
+                <input type="text" id="cvc" name="cvc" placeholder="">
             </div>
-        </div>
 
         <!-- Köp-knapp -->
         <button type="submit" class="purchase-button">Place Order</button>
     </form>
+
+
+    <!-- bilder bredvid ruta -->
+    <div class="Pic-Container">
+        <img src="pic/gh.jpg" alt="Bild 1">
+        <img src="pic/th (1).jpg" alt="Bild 2">
+        <img src="pic/th.jpg" alt="Bild 3"> 
+    </div>
 </div>
+
 </body>
 
 	<!-------------footer------->

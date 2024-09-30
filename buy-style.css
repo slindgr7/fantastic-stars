@@ -1,44 +1,44 @@
-* {
+* 
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
+body 
+{
     font-family: "Roboto", sans-serif;
     background-image: linear-gradient(92deg, #494446, #141414);
 }
 
-.container {
+.container 
+{
     max-width: 800px;
     margin: 53px;
     background-color: #312d2d;
     color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 40px;
     border-radius: 8px;
     box-shadow: 12px 13px 20px 8px #1818184a;
 }
 
-h1 {
+h1 
+{
     margin: 10px;
     text-align: center;
     color: #d1c6c6;
     margin: 20px;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-label {
+label 
+{
     font-size: 17px;
     margin: 6px;
     color: #706868;
 }
 
-input, select {
+input, select 
+{
     padding: 12px;
     font-size: 16px;
     margin-bottom: 20px;
@@ -46,23 +46,16 @@ input, select {
     border-radius: 5px;
 }
 
-.form-group {
-    margin-bottom: 20px;
-    
-}
-
-.form-group.half {
-    width: 48%;
-}
-
-.form-row {
+.form-group
+{
     display: flex;
-    justify-content:flex-start;
+    flex-direction: column;
 }
 
-
-.purchase-button {
+.purchase-button 
+{
     padding: 15px;
+    width: fit-content;
     background-color: #423b36;
     color: white;
     font-size: 18px;
@@ -70,10 +63,136 @@ input, select {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
     box-shadow: 12px 13px 20px 8px #1818184a;
 }
 
-.purchase-button:hover {
+.purchase-button:hover 
+{
     background-color: #241d1d;
+}
+
+.Pic-Container
+{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 800px;
+    top: 50px;
+    width: fit-content;
+    height: fit-content;
+    gap: 10px;
+    margin: 13px;
+    background-color: #312d2d;
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 12px 13px 20px 8px #1818184a;
+}
+
+img
+{
+    display: block;
+    max-width: 200px;
+    box-shadow: 12px 13px 20px 8px #1818184a;
+}
+
+/*-------footer----*/
+
+footer{
+	color: white;
+	margin-top: 50px;
+	border: 2px solid rgb(74, 64, 64);
+	background-color: black;
+}
+footer .footer-1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 70px 0 0;
+}
+.footer-1 img{
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 120px;
+	border: 2px solid gray;
+}
+footer .information{
+	display: flex;
+	flex-direction: column;
+}
+footer .information>*{
+	padding: 15px;
+	color: white;
+}
+footer .information a:hover{
+	font-weight: bold;
+	color: black;
+	background-color: white;
+}
+footer .social-media{
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+}
+footer .social-media img{
+	width: 30px;
+}
+footer .copy-right{
+	border-top: 2px solid gray;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.footer-1 .contact{
+	padding: 15px;
+	color: white;
+}
+.contact .contact-3>*{
+	padding: 15px;
+
+}
+.contact .contact-2{
+	margin-bottom: 30px;
+	margin-bottom: 20px;
+}
+.copy-right .p-1{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+/*------for media query--------*/
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: lightblue;
+    
+    }
+.header-1{
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .header-1 .search{
+    position: static;
+    display: flex;
+    flex-direction: column;
+ }
+.header-1>img{
+display: none;
+}
+.header-1 .search .input {
+    height: 20px;
+    width: 200px;
+}
+.header-1 .search .button {
+    padding: 5px;
+    border: none;    
+}
+footer .footer-1{
+    display: flex;
+    flex-direction: column;}
 }

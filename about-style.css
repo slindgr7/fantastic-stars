@@ -2,8 +2,12 @@
 body{
 	margin: 0;
 	background: linear-gradient(92deg, #494446, #141414);
+<<<<<<< HEAD
 	color: #a89797;
 	
+=======
+	color: #a89797; 
+>>>>>>> f65686f568ca3450c5c6608ee2ff44135c96e151
 }
 
 
@@ -222,7 +226,6 @@ h2 {
 	}
 
 }
-
 
 .contact-box {
 

@@ -1,6 +1,10 @@
-body{
-	font-size: clamp(1rem, 0.9285714285714286rem + 0.35714285714285715vw, 1.25rem);
-	margin: 0 auto;
+body {
+  font-size: clamp(
+    1rem,
+    0.9285714285714286rem + 0.35714285714285715vw,
+    1.25rem
+  );
+  margin: 0 auto;
 }
 header {
   background-image: url(pic/smart-watch-with-black-band-neon-light-background_843415-1338.png);
@@ -13,7 +17,7 @@ header {
 }
 
 .header-1 img {
-	margin: 20px;
+  margin: 20px;
   width: 140px;
   border-radius: 100%;
 }
@@ -54,121 +58,266 @@ nav > *:hover {
   color: white;
   font-weight: bold;
 }
+
+/*--------------product-------*/
+p {
+  color: #000;
+  padding-bottom: 2em;
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  gap: 40px;
+}
+.row > * {
+  text-align: center;
+}
+.col-2 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.col-2 img {
+	width: 400px;
+  padding: 50px 0;
+  border-radius: 20%;
+}
+.col-2 h1 {
+  line-height: 60px;
+  margin: 25px 0;
+}
+.btn {
+  display: inline;
+  background: #ff523b;
+  color: white;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+}
+.btn:hover {
+  background: #563434;
+}
+/*.header{
+    background: redial-gradient(#fff,#8a7373);
+}
+.header{
+    margin-top:70px ;
+}*
+
+/*------feature product--------*/
+.small-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.col-4 {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s; /*mecheresha lay rating behala*/
+}
+.col-4 img {
+  width: 100%;
+  margin-bottom: 1em;
+  height: 150px; /*optional*/
+}
+.title {
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: white;
+  font-size: 40px;
+}
+.title::after {
+  content: "";
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+.title:hover {
+  color: turquoise;
+}
+h4 {
+  color: #000;
+  font-weight: normal;
+  margin-bottom: 1em;
+}
+p {
+  font-size: 14px;
+  margin: 1em 1em;
+}
+.rating .fa {
+  color: #ff523b;
+}
+.col-4:hover {
+  /*mecheresha lay*/
+  transform: translateY(-5px);
+}
+
 @media (max-width: 580px) {
-	body{
-		min-width: 260px;
-	}
-.header-1{
-	height: 130px;
+  body {
+    min-width: 260px;
+  }
+  .header-1 {
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-1 .search {
+    position: static;
+    display: flex;
+    flex-direction: column;
+  }
+  .header-1 > img {
+    display: none;
+  }
+  .header-1 .search input {
+    height: 20px;
+    width: 200px;
+  }
+  .header-1 .search button {
+    padding: 5px;
+    border: none;
+  }
+}
+footer {
+  color: white;
+  border: 2px solid rgb(74, 64, 64);
+  background-color: black;
+}
+footer .footer-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 70px 0 0;
+}
+.footer-1 img {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 120px;
+  border: 2px solid gray;
+  border-radius: 100%;
+}
+footer .information {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+footer .information > * {
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+footer .information a:hover {
+  font-weight: bold;
+  color: black;
+  background-color: rgb(246, 198, 198);
+  border-radius: 10%;
+}
+footer .social-media {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+footer .social-media img {
+  width: 30px;
+}
+footer .copy-right {
+  border-top: 2px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-1 .contact {
+  padding: 15px;
+  color: white;
+}
+.contact-1>*{
+	color: white;
+}
+.contact .contact-3 > * {
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+}
+.contact .contact-2 {
+  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+.copy-right .p-1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+@media (max-width: 580px) {
+  footer .footer-1 {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+}
+footer .hover:hover {
+  border-radius: 10%;
+  background-color: white;
+  font-weight: bold;
+  color: black;
+}
+footer .padding {
+  padding: 15px;
+}
+footer .contact-1 .line {
+  text-decoration: underline;
+}
+footer .contact-1 .white {
+  color: white;
+  font-weight: bold;
+}
+.main-2 {
+  background-color: rgb(119, 112, 112);
+}
+.main-2 .line-1 {
+  border-bottom: 3px solid white;
+}
+
+@media screen and (max-width: 1084px) {
+  .row{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+  }
+  .row .image-0{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+  }
+  body {
+	min-width: 370px;
+  }
 }
-  .header-1 .search{
-	position: static;
-    display: flex;
-    flex-direction: column;
- }
-.header-1>img{
-display: none;
-}
-.header-1 .search input {
-	height: 20px;
-	width: 200px;
-}
-.header-1 .search button {
-	padding: 5px;
-	border: none;
-	
-}
-}
-footer{
-	color: white;
-	margin-top: 50px;
-	border: 2px solid rgb(74, 64, 64);
-	background-color: black;
-}
-footer .footer-1{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	margin: 0 70px 0 0;
-}
-.footer-1 img{
-	margin-left: 20px;
-	margin-top: 20px;
-	width: 120px;
-	border: 2px solid gray;
-	border-radius: 100%;
-}
-footer .information{
-	display: flex;
-	flex-direction: column;
-	margin-top: 10px;
-}
-footer .information>*{
-	padding: 15px;
-	color: white;
-	text-decoration: none;
-	font-weight: bold;
-}
-footer .information a:hover{
-	font-weight: bold;
-	color: black;
-	background-color: rgb(246, 198, 198);
-	border-radius: 10%;
-}
-footer .social-media{
-	padding: 15px;
-	display: flex;
-	flex-direction: column;
-}
-footer .social-media img{
-	width: 30px;
-}
-footer .copy-right{
-	border-top: 2px solid gray;
-	display: flex;
-	justify-content: center;
-    align-items: center;
-}
-
-.footer-1 .contact{
-	padding: 15px;
-	color: white;
-}
-.contact .contact-3>*{
-	padding: 15px;
-	font-size: 20px;
-
-}
-.contact .contact-2{
-	margin-bottom: 30px;
-	margin-bottom: 20px;
-}
-.copy-right .p-1{
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-@media (max-width: 580px){
-	footer .footer-1{
-		display: flex;
-		flex-direction: column;}
-}	
-footer .hover:hover{
-	border-radius: 10%;
-background-color: white;
-font-weight: bold;
-color: black;
-}
-footer .padding{
-	padding: 15px;
-}
-footer .contact-1 .line{
-	text-decoration: underline;
-}
-footer .contact-1 .white{
-	color: white;
-	font-weight: bold;
+@media screen and (max-width: 600px) {
+	.col-2 img{
+		width: 300px;
+	}
+	body {
+		min-width: 370px;
+	  }
 }
