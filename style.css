@@ -265,6 +265,7 @@ footer .copy-right {
 .copy-right .p-1 {
   margin-top: 20px;
   margin-bottom: 20px;
+  color: white;
 }
 @media (max-width: 580px) {
   footer .footer-1 {
