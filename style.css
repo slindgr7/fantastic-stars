@@ -5,6 +5,7 @@ body {
     1.25rem
   );
   margin: 0 auto;
+  min-width: 300px;
 }
 header {
   background-image: url(pic/smart-watch-with-black-band-neon-light-background_843415-1338.png);
@@ -61,55 +62,6 @@ nav > *:hover {
   font-weight: bold;
 }
 
-/*--------------product-------*/
-/*p {
-  color: #000;
-  padding-bottom: 2em;
-}
-.container {
-  max-width: 1300px;
-  margin: auto;
-  padding-left: 250px;
-  padding-right: 250px;
-}
-.small-con .small-container .row {
-  display: flex;
-  flex-direction: row;
-  padding: 20px;
-}
-.row > * {
-  text-align: center;
-}
-.col-2 {
-  flex-basis: 50%;
-  min-width: 300px;
-}
-.col-2 img {
-	width: 400px;
-  padding: 50px 0;
-  border-radius: 20%;
-}
-.col-2 h1 {
-  line-height: 60px;
-  margin: 25px 0;
-}
-.btn {
-  display: inline;
-  background: #ff523b;
-  color: white;
-  padding: 8px 30px;
-  margin: 30px 0;
-  border-radius: 30px;
-}
-.btn:hover {
-  background: #563434;
-}*/
-/*.header{
-    background: redial-gradient(#fff,#8a7373);
-}
-.header{
-    margin-top:70px ;
-}*/
 
 
 @media (max-width: 580px) {
