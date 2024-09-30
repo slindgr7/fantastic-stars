@@ -158,10 +158,6 @@ h4 {
   font-weight: normal;
   margin-bottom: 1em;
 }
-p {
-  font-size: 14px;
-  margin: 1em 1em;
-}
 .rating .fa {
   color: #ff523b;
 }
@@ -299,27 +295,5 @@ footer .contact-1 .white {
   border-bottom: 3px solid white;
 }
 
-@media screen and (max-width: 1084px) {
-  .row{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   align-items: center;
-  }
-  .row .image-0{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-  }
-  body {
-	min-width: 370px;
-  }
-}
-@media screen and (max-width: 600px) {
-	.col-2 img{
-		width: 300px;
-	}
-	body {
-		min-width: 370px;
-	  }
-}
+
+
